@@ -1,15 +1,10 @@
 import Head from 'next/head';
-import styles from '../../styles/Home.module.css';
+import Layout from '../../components/layout';
 
 export default function EventsPage() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Events</title>
-      </Head>
-
+    <Layout title="DJ | Events" className={styles.container}>
       <h1>My Events</h1>
-
-    </div>
+    </Layout>
   );
 }

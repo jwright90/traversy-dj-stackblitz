@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function AboutPage() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>About</title>
       </Head>

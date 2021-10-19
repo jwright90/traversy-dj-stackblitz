@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import styles from '../styles/Layout.modules.css';
 
 export default function Layout({ title, keywords, description, children }) {
   return (

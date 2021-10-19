@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -8,7 +9,10 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
 
-      <h1>New Page</h1>
+      <div>
+        <h1>Home Page</h1>
+        <Link href="/about">About</Link>
+      </div>
     </div>
   );
 }

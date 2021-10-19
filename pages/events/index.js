@@ -9,6 +9,7 @@ export default function EventsPage() {
       </Head>
 
       <h1>My Events</h1>
+
     </div>
   );
 }
